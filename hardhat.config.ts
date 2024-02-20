@@ -37,6 +37,7 @@ const config: HardhatUserConfig = {
     apiKey: {
       mainnet: process.env.ETHERSCAN_API_KEY_ETH || "",
       sepolia: process.env.ETHERSCAN_API_KEY_ETH || "",
+      goerli: process.env.ETHERSCAN_API_KEY_ETH || "",
       arbitrumOne: process.env.ETHERSCAN_API_KEY_ARB || "",
     },
   },

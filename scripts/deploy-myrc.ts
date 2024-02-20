@@ -4,8 +4,8 @@ import { sendWithFrame, verifyContract } from "./helpers";
 
 async function main() {
   // const myrcSafe = "0xCCa0793222422E8aC1dD48DB1Aa691f9D360A1c2"; // Eth mainnet safe
-  const myrcSafe = "0xE16F1D01FaE9DB9aeeEcEe6a8B99ec0141321970"; // Arbitrum safe
-  // const myrcSafe = "0xb30AEf901D612C94ba40d597712F403457F237d2"; // Daenax testing add for sepolia
+  // const myrcSafe = "0xE16F1D01FaE9DB9aeeEcEe6a8B99ec0141321970"; // Arbitrum safe
+  const myrcSafe = "0xb30AEf901D612C94ba40d597712F403457F237d2"; // Daenax testing add for sepolia
   const admin = myrcSafe;
   const minter = myrcSafe;
   const police = myrcSafe;

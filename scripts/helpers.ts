@@ -71,15 +71,7 @@ export async function sendWithFrame(tx: TransactionRequest, name: string, networ
 
 function getEtherscanApiKey(network: string) {
   switch (network) {
-    case "mainnet":
-      return process.env.ETHERSCAN_API_KEY_ETH;
-    case "mumbai":
-      return process.env.ETHERSCAN_API_KEY_POLY;
-    case "goerli":
-      return process.env.ETHERSCAN_API_KEY_GOERLI;
-    case "sepolia":
-      return process.env.ETHERSCAN_API_KEY_SEPOLIA;
-    case "arbitrum":
+    case "arbitrumOne":
       return process.env.ETHERSCAN_API_KEY_ARB;
     default:
       return process.env.ETHERSCAN_API_KEY_ETH;

@@ -1,13 +1,30 @@
-# Sample Hardhat Project
+# BLOX MYRC contracts
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+## Setup
 
-Try running some of the following tasks:
-
+1. Copy the ```.env.example``` file to ```.env``` and add the relevant fields.
+2. Then run:
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
+yarn install
+npx hardhat compile
 ```
+
+## Run test
+
+```sh
+npx hardhat test test/myrc.test.ts
+```
+
+## Deployed contracts
+
+### Mainnet
+| Network | Contract Address |
+|---|---|
+| Ethereum | [0xbed7D999f1D71Ac70c263F64c7c7E009d691be2e](https://etherscan.io/token/0xbed7D999f1D71Ac70c263F64c7c7E009d691be2e)
+| Arbitrum One | [0x3eD03E95DD894235090B3d4A49E0C3239EDcE59e](https://arbiscan.io/address/0x3eD03E95DD894235090B3d4A49E0C3239EDcE59e)
+
+### Testnet
+| Network | Contract Address |
+|---|---|
+| Goerli | [0x3eD03E95DD894235090B3d4A49E0C3239EDcE59e](https://goerli.etherscan.io/token/0x3eD03E95DD894235090B3d4A49E0C3239EDcE59e)
+| Sepolia | [0x3eD03E95DD894235090B3d4A49E0C3239EDcE59e](https://arbiscan.io/address/0x3eD03E95DD894235090B3d4A49E0C3239EDcE59e)
