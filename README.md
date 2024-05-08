@@ -28,3 +28,4 @@ npx hardhat test test/myrc.test.ts
 |---|---|
 | Goerli | [0x3eD03E95DD894235090B3d4A49E0C3239EDcE59e](https://goerli.etherscan.io/token/0x3eD03E95DD894235090B3d4A49E0C3239EDcE59e)
 | Sepolia | [0x3eD03E95DD894235090B3d4A49E0C3239EDcE59e](https://sepolia.etherscan.io/token/0x3eD03E95DD894235090B3d4A49E0C3239EDcE59e)
+| Arbitrum Sepolia | [0x3eD03E95DD894235090B3d4A49E0C3239EDcE59e](https://sepolia.arbitrum.io/token/0x3eD03E95DD894235090B3d4A49E0C3239EDcE59e)
